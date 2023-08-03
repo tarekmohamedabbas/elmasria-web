@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color: #660066;
+}
+
+/* header  */
+
+header {
+  background-color: #eee;
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  box-shadow: -4px 5px 11px black;
+  /* position: sticky; */
+  top: 10px;
+  /* z-index: 9999px; */
+}
+
+.nav {
+  font-size: 20px;
+  font-weight: 200;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  text-decoration: none;
+  flex-direction: row;
+}
+
+header img {
+  height: 50px;
+  /* background: #000; */
+}
+
+header .one,
+header .two,
+header .three,
+header .four {
+  margin-left: 50px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header .four {
+  margin-right: 200px;
+}
+
+header:hover {
+  color: var(--color);
+  background-color: rgb(0, 0, 0);
+  transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+nav:hover {
+  color: #eee;
+  font-weight: 500;
+  transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+  -webkit-transition: 0.7s;
+}
+
+::selection {
+  color: var(--color);
+  font-weight: 800px;
+}
+
+header h5 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+}
+
+/* section one */
+
+.about h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.about p {
+  font-size: 20px;
+  font-style: initial;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 300;
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+}
+
+/* section two  */
+
+#two {
+  background: #000000;
+}
+
+#two .img {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.features-one {
+  width: 70%;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  display: flex;
+  margin-left: 15%;
+  margin-bottom: 15%;
+  color: white;
+}
+
+/* section three major */
+
+.major {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.major-one:hover {
+  transform: scale(1.1);
+}
+
+.major-two:hover {
+  transform: scale(1.1);
+}
+
+.major-three:hover {
+  transform: scale(1.1);
+}
+
+.major-four:hover {
+  transform: scale(1.1);
+}
+
+.major-five:hover {
+  transform: scale(1.1);
+}
+
+.major-six:hover {
+  transform: scale(1.1);
+}
+
+.major-seven:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.major-one {
+  background-color: #ffe97d;
+}
+.major-two {
+  background: #d1d1e1;
+}
+.major-three {
+  background-color: #ffe97d;
+}
+.major-four {
+  background: #d1d1e1;
+}
+.major-five {
+  background-color: #c0ebf1;
+}
+.major-six {
+  background: #57a161c5;
+}
+.major-seven {
+  background-color: #c0ebf1;
+}
+
+.major-one,
+.major-two,
+.major-three,
+.major-four,
+.major-five,
+.major-six,
+.major-seven {
+  width: 26%;
+  /*background-color: rgb(171, 46, 46);
+    */
+  margin-bottom: 50px;
+  width: 330px;
+  height: 350px;
+  margin-right: 20px;
+  font-size: 25px;
+  font-weight: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0px 5px 25px rgba(1 1 1 /15);
+  border-radius: 10%;
+
+  transition: 0.7s ease;
+  -webkit-transition: 0.7s ease;
+  -moz-transition: 0.7s ease;
+  -ms-transition: 0.7s ease;
+  -o-transition: 0.7s ease;
+  padding: 10px;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+
+/* section four */
+
+.branches {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-right: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+  background: #b7acac69;
+  margin-bottom: 20px;
+}
+
+.elmahade,
+.shobra,
+.tlkha,
+.DAMIETTA,
+.HURGHADA,
+.DAMIETTA – AL RAWDA,
+.DAMIETTA – SINANIA {
+  padding: 3px;
+}
+
+.branches h3 {
+  text-decoration: none;
+  background-color: #000;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  text-decoration: none;
+  flex-direction: row;
+}
+/* footer  */
+
+footer {
+  background-color: rgb(0, 0, 0);
+  color: #eee;
+  width: 100%;
+  height: 11em;
+  direction: rtl;
+  display: flex;
+  justify-content: center;
+}
+
+footer img {
+  width: 143%;
+  height: 13%;
+  background: #000;
+  display: flex;
+  justify-content: center;
+}
+
+footer h3 {
+  display: flex;
+  justify-content: end;
+}
+
+.woter {
+  display: flex;
+  justify-content: start;
+}
+
+@media (max-width: 1024px) {
+
+  
+
+  .img {
+    display: flex;
+    font-display: auto;
+    flex-direction: column;
+  }
+
+  header .one,
+  header .two,
+  header .three,
+  header .four {
+    margin-left: 4px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header .four {
+    margin-right: 0px;
+  }
+
+  .nav {
+    display: flex;
+    font: cursive;
+    flex-direction: column;
+  }
+
+  .major-one,
+  .major-two,
+  .major-three,
+  .major-four,
+  .major-five,
+  .major-six,
+  .major-seven {
+    margin-bottom: 50px;
+    width: 330px;
+    height: 750px;
+    margin-bottom: 100px;
+  }
+
+}
